@@ -1,11 +1,10 @@
-**Deprecated**: No longer maintained
-Please consider forking this repository, should works on python2 but doesn't works on python3
-
 # Django CMS Placeholder Attribute
 
 # Description
 
 `djangocms-placeholder-attr` allow you to call a plugin model attribute from a placeholder in [django-cms](https://github.com/divio/django-cms)
+
+This fork is compatible with python 3.x
 
 # Depends
 
@@ -13,7 +12,7 @@ Please consider forking this repository, should works on python2 but doesn't wor
 
 # Installation
 * use pip `pip install djangocms-placeholder-attr`
-* Put in your INSTALLED_APPS: `INSTALLED_APPS += ('djangocms-placeholder-attr', )` 
+* Put in your INSTALLED_APPS: `INSTALLED_APPS += ('djangocms-placeholder-attr', )`
 
 
 # Usage

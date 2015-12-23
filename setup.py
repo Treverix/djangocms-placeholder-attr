@@ -8,6 +8,7 @@ try:
 except (IOError, ImportError):
     with open('README.md', 'rb') as f:
         description = f.read()
+    description = str(description.decode('utf-8'))
 
 
 setup(
@@ -34,4 +35,4 @@ setup(
     zip_safe=False,
 )
 
-## Installation by Mauricio Aizga - @MaoAiz
+# Installation by Mauricio Aizga - @MaoAiz
